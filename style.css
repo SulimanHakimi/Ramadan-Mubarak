@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.conteniar {
+  background: url("./img/bg-image.png");
+  font-family: "Roboto", sans-serif;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.right-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+nav img {
+  width: 120px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 10vw;
+}
+.right-content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  width: 60%;
+}
+
+.left-page {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-page img {
+  width: 400px;
+}
+.title {
+  font-size: 80px;
+  color: white;
+  font-family: "Berkshire Swash", serif;
+  font-weight: bold;
+}
+.sec-title {
+  font-size: 25px;
+  color: #f9a73f;
+}
+.right-content p {
+  font-size: 14px;
+  color: #ffbb61;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+ul li a img {
+  width: 40px;
+}
