@@ -10,6 +10,7 @@
   background: url("./img/bg-image.png");
   font-family: "Roboto", sans-serif;
   background-position: center;
+  background-color: rgb(233, 233, 233);
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -64,7 +65,6 @@ nav {
   color: #f9a73f;
 }
 .right-content p {
-  font-size: 14px;
   color: #ffbb61;
 }
 
